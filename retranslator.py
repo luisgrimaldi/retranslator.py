@@ -145,7 +145,7 @@ def clientthread(conn):
                     lat = msg['params']['posinfo'].get('lat', None)
                     lon = msg['params']['posinfo'].get('lon', None)
                  
-                    print "Imei: " + str(msg['id']) + ". Pozitie: " + str(lat) + " | " + str(lon)
+                    print ("Imei: " + str(msg['id']) + ". Pozitie: " + str(lat) + " | " + str(lon))
                 else:
                     print ("Position Info is invalid.")
                  
